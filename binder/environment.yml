@@ -8,8 +8,15 @@ dependencies:
 - scikit-learn
 - scipy
 - sympy
-# This is to avoid pulling an older IPython version
-- ipython >=7.25
+# EOmaps Workshop dependencies
+- eomaps=6.1.1
+- netcdf4
+- rioxarray
+- pip
+- spyder
+# to avoid autocompletion issues with the latest spyder version
+- pyzmq=24.0.1 
+- ipython=7.33
 # This is required to avoid conda complaining about it.
 - pip
 
