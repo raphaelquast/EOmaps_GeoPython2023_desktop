@@ -12,7 +12,6 @@ dependencies:
 - eomaps=6.1.1
 - netcdf4
 - rioxarray
-- pip
 - spyder
 # to avoid autocompletion issues with the latest spyder version
 - pyzmq=24.0.1 
